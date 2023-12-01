@@ -8,8 +8,8 @@
   </head>
   <body>
     <header>
-      <div class="header__logo">
-        <img src="/images/logo.svg" alt="logo">
+      <div class="header__logo-wrapper">
+        <img class="header__logo" src="/images/logo.svg" alt="logo">
       </div>
       <nav class="header__nav">
         <ul class="nav__list">
@@ -35,11 +35,95 @@
       </div>
     </header>
     <sidebar>
-
+      <div class="sidebar__icon-wrapper" >
+        <img class="sidebar__icon" src="/images/sidebar_icon.svg" alt="sidebar icon">
+        <div class="sidebar__social">
+          <ul class="list-items">
+            <li class="list-items__item">
+              <img src="/images/facebook_icon.svg" alt="facebook">
+            </li>
+            <li class="list-items__item">
+              <img src="/images/instagram_icon.svg" alt="instagram">
+            </li>
+            <li class="list-items__item">
+              <img src="/images/twitter_icon.svg" alt="twitter">
+            </li>
+          </ul>
+        </div>
+      </div>
     </sidebar>
-    <footer>
+    <section class="main">
+      <article class="main__text">
+        <p class="main__text__quality">
+          100% Quality Guranty
+        </p>
+        <h1 class="main__text__title">
+          Find Classy Furnitures For Your Comfort
+        </h1>
+        <h3 class="main__text__subtitle">
+          All the Lorem Ipsum generators on the Internet tend to predefined chunks  this the first true generator on the Internet. 
+        </h3>
+        <div class="main__text__price price">
+          <span class="price_start">Start From</span>
+          <span class="price_value">102.99 USD</span>
+        </div>
+        <button class="main__text__button button">
+          Buy Now
+        </button>
+      </article>
+      <div class="main__slider slider">
 
-    </footer>
+
+      </div>
+    </section>
+    <section class="desc-part">
+      <div class="desc-part__image-wrapper">
+        <img class="desc-part__image" src="/images/luxury_chair.png" alt="Chair">
+      </div>
+      <div class="desc-part__text">
+        <h2 class="desc-part__text__title">
+          Luxury & Fancy Chair
+        </h2>
+        <h3 class="desc-part__text__subtitle">
+          All the Lorem Ipsum generators on the Internet tend to predefined chunks  this the first true generator on the Internet. 
+        </h3>
+      </div>
+      <div class="desc-part__stats">
+        <div class="stats__top">
+          <div class="visitors">
+            <span class="visitors--number">
+              20K+
+            </span>
+            <span class="visitors--text">
+              People Visiting this year
+            </span>
+          </div>
+          <div class="experience">
+            <span class="experience--number">
+              15
+            </span>
+            <span class="experience--text">
+              Years Experience
+            </span>
+          </div>
+        </div>
+        <div class="description-part__stats__bottom">
+          <div class="members">
+            <div class="members__image-wrapper">
+              <img class="members__image" src="/images/members.png" alt="members">
+            </div>
+            <div class="members__text">
+              <span class="members__text__title">
+                Trust Members
+              </span>
+              <span class="members__text__subtitle">
+                More than 50k peoples integrate with us.
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <script type="module" src="/main.js"></script>
   </body>
