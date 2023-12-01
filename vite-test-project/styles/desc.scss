@@ -1,0 +1,108 @@
+.desc-part{
+    height: 220px;
+    margin-top: 167px;
+    padding-right: 105px;
+    background-color: #1B3544;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    &__image-wrapper{
+        position: relative;
+        width: 359px;
+        overflow: visible;
+        .desc-part__image{
+            position: absolute;
+            top: -110px;
+            left: -20px; 
+        }
+    }
+    &__text{
+        width: 359px;
+        &__title{
+            margin-top: 35px;
+            color: #FFF;
+            font-family: PT Serif;
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+        &__subtitle{
+            margin-top: 17px;
+            color: #E5E5E5;
+            font-family: Poppins;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 22px;
+        }
+    }
+    &__stat{
+        width: 381px;
+        .stat__top{
+            margin-top: 43px;
+            display: flex;
+            flex-direction: row;
+            gap: 33px;
+            justify-content: flex-end;
+            align-items: center;
+            .advance{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                .stat__number{
+                    margin-right: 8px;
+                    color: #FFF;
+                    font-family: PT Serif;
+                    font-size: 30px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                }
+                .stat__text{
+                    color: #FFF;
+                    font-family: PT Serif;
+                    font-size: 12px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                }
+            }
+            
+        }
+        .stat__bottom{
+            margin-top: 53px;
+            .members{
+                display: flex;
+                flex-direction: row;
+                &__image-wrapper{
+                    margin-right: 31px;
+                }
+                &__text{
+                    display: flex;
+                    flex-direction: column;
+                    border-left: 2px solid rgba(255, 255, 255, 0.46);
+                    &__title{
+                        margin-left: 26px;
+                        color: #FFF;
+                        font-family: Poppins;
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: normal;
+                    }
+                    &__subtitle{
+                        margin-left: 26px;
+                        color: #FFF;
+                        font-family: Poppins;
+                        font-size: 10px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;
+                    }
+                }
+            }
+        }
+    }
+    
+}

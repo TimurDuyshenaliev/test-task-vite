@@ -11,47 +11,54 @@
       <div class="header__logo-wrapper">
         <img class="header__logo" src="/images/logo.svg" alt="logo">
       </div>
-      <nav class="header__nav">
+      <nav class="header__nav menu-open">
         <ul class="nav__list">
-          <li class="header__list__titles">
+          <li class="nav__list__titles">
             <a href="#">About</a>
           </li>
-          <li class="header__list__titles">
+          <li class="nav__list__titles">
             <a href="#">Blog</a>
           </li>
-          <li class="header__list__titles">
+          <li class="nav__list__titles">
             <a href="#">Agency</a>
           </li>
-          <li class="header__list__titles">
+          <li class="nav__list__titles">
             <a href="#">Featured</a>
           </li>
-          <li class="header__list__titles">
+          <li class="nav__list__titles">
             <a href="#">Price</a>
           </li>
         </ul>
+        <div class="nav__menu menu-toogle" onclick="toggleMenu()">
+          <img src="/images/menu_icon.svg" alt="menu">
+        </div>
       </nav>
-      <div class="header__menu menu-toogle">
-        <img src="/images/menu_icon.svg" alt="menu">
-      </div>
+      
     </header>
-    <sidebar>
+    <aside class="sidebar">
       <div class="sidebar__icon-wrapper" >
         <img class="sidebar__icon" src="/images/sidebar_icon.svg" alt="sidebar icon">
-        <div class="sidebar__social">
-          <ul class="list-items">
-            <li class="list-items__item">
-              <img src="/images/facebook_icon.svg" alt="facebook">
-            </li>
-            <li class="list-items__item">
-              <img src="/images/instagram_icon.svg" alt="instagram">
-            </li>
-            <li class="list-items__item">
-              <img src="/images/twitter_icon.svg" alt="twitter">
-            </li>
-          </ul>
-        </div>
       </div>
-    </sidebar>
+      <div class="sidebar__social">
+        <ul class="list-items">
+          <li class="list-items__item">
+            <a href="#">
+              <img src="/images/facebook_icon.svg" alt="facebook">
+            </a>
+          </li>
+          <li class="list-items__item">
+            <a href="#">
+              <img src="/images/instagram_icon.svg" alt="instagram">
+            </a>
+          </li>
+          <li class="list-items__item">
+            <a href="#">
+              <img src="/images/twitter_icon.svg" alt="twitter">
+            </a>
+          </li>
+        </ul>
+      </div>
+    </aside>
     <section class="main">
       <article class="main__text">
         <p class="main__text__quality">
@@ -64,8 +71,8 @@
           All the Lorem Ipsum generators on the Internet tend to predefined chunks  this the first true generator on the Internet. 
         </h3>
         <div class="main__text__price price">
-          <span class="price_start">Start From</span>
-          <span class="price_value">102.99 USD</span>
+          <span class="price__start">Start From</span>
+          <span class="price__value">102.99 USD</span>
         </div>
         <button class="main__text__button button">
           Buy Now
@@ -88,26 +95,26 @@
           All the Lorem Ipsum generators on the Internet tend to predefined chunks  this the first true generator on the Internet. 
         </h3>
       </div>
-      <div class="desc-part__stats">
-        <div class="stats__top">
-          <div class="visitors">
-            <span class="visitors--number">
+      <div class="desc-part__stat">
+        <div class="stat__top">
+          <div class="advance">
+            <span class="stat__number">
               20K+
             </span>
-            <span class="visitors--text">
+            <span class="stat__text">
               People Visiting this year
             </span>
           </div>
-          <div class="experience">
-            <span class="experience--number">
+          <div class="advance">
+            <span class="stat__number">
               15
             </span>
-            <span class="experience--text">
+            <span class="stat__text">
               Years Experience
             </span>
           </div>
         </div>
-        <div class="description-part__stats__bottom">
+        <div class="stat__bottom">
           <div class="members">
             <div class="members__image-wrapper">
               <img class="members__image" src="/images/members.png" alt="members">
@@ -125,6 +132,6 @@
       </div>
     </section>
 
-    <script type="module" src="/main.js"></script>
+    <script src="/main.js"></script>
   </body>
 </html>

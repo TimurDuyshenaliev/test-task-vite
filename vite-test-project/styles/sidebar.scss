@@ -1,0 +1,23 @@
+.sidebar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 700px;
+    width: 109px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    &__icon-wrapper{
+        margin-top: 49px;
+    }
+    &__social{
+        .list-items{
+            height: 144px;
+            width: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+    }
+}

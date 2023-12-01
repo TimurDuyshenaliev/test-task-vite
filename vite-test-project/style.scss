@@ -1,2 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=PT+Serif&family=Poppins:wght@400;500;600&family=Public+Sans&display=swap');
-@import url('/styles/reset.css')
+@import url('/styles/reset.css');
+@import url('/styles/header.scss');
+@import url('/styles/sidebar.scss');
+@import url('/styles/main.scss');
+@import url('/styles/desc.scss');
+
+body {
+  background-color: #E5E5E5;
+}
+
+h1 {
+  font-family: 'PT Serif', serif;
+  font-size: 48px;
+}
+
+h3 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+}
