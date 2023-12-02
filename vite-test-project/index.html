@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="style.scss">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <title>Xeon Chairs</title>
   </head>
   <body>
@@ -33,7 +34,6 @@
           <img src="/images/menu_icon.svg" alt="menu">
         </div>
       </nav>
-      
     </header>
     <aside class="sidebar">
       <div class="sidebar__icon-wrapper" >
@@ -78,9 +78,66 @@
           Buy Now
         </button>
       </article>
-      <div class="main__slider slider">
-
-
+      <div class="main__slider">
+        <div class="swiper mySwiperMain">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="/images/blue.png" />
+            </div>
+            <div class="swiper-slide">
+              <img src="/images/yellow.png" />
+            </div>
+            <div class="swiper-slide">
+              <img src="/images/black.png" />
+            </div>
+            <div class="swiper-slide">
+              <img src="/images/lavand.png" />
+            </div>
+          </div>
+        </div>
+        <div thumbsSlider="" class="swiper mySwiperThumb">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="swiper-slide__image-wrapper">
+                <img src="/images/blue.png" />
+              </div>
+              <span class="swiper-slide__desc">
+                Comfort Launge Chairs
+              </span>
+            </div>
+            <div class="swiper-slide">
+              <div class="swiper-slide__image-wrapper">
+                <img src="/images/yellow.png" />
+              </div>
+              <span class="swiper-slide__desc">
+                Comfort Launge Chairs
+              </span>
+            </div>
+            <div class="swiper-slide">
+              <div class="swiper-slide__image-wrapper">
+                <img src="/images/black.png" />
+              </div>
+              <span class="swiper-slide__desc">
+                Comfort Launge Chairs
+              </span>
+            </div>
+            <div class="swiper-slide">
+              <div class="swiper-slide__image-wrapper">
+                <img src="/images/lavand.png" />
+              </div>
+              <span class="swiper-slide__desc">
+                Comfort Launge Chairs
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination-box">
+          <span class="swiper-pagination-box__text">Popular shades</span>
+          <div class="swiper-pagination"></div>
+        </div>
+        <div class="swiper-button-next">
+          <img src="/images/arrow.svg" alt="arrow">
+        </div>
       </div>
     </section>
     <section class="desc-part">
@@ -94,6 +151,7 @@
         <h3 class="desc-part__text__subtitle">
           All the Lorem Ipsum generators on the Internet tend to predefined chunks  this the first true generator on the Internet. 
         </h3>
+        <div class="desc-part__text__line"></div>
       </div>
       <div class="desc-part__stat">
         <div class="stat__top">
@@ -131,7 +189,8 @@
         </div>
       </div>
     </section>
-
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="/main.js"></script>
   </body>
 </html>
