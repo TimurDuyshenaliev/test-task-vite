@@ -1,18 +1,17 @@
-header{ 
+.header{ 
     margin-top: 49px;
     padding: 0 109px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    nav{
-        // margin-left: 280px;
+    &__nav{
         display: flex;
         flex-direction: row;
         align-items: center;
         position: relative;
         overflow: hidden;
-        .nav__list{
+        .list-links{
             position: relative;
             right: -150%;
             display: flex;
@@ -20,14 +19,14 @@ header{
             gap: 65px;
             visibility: hidden;
             transition: all 0.3s ease-in-out;
-            &__titles{
+            &__item{
                 height: 21px;
                 transition: all 0.2s ease;
                 border-bottom: 3px solid transparent;
                 &:hover{
                     border-bottom: 3px solid #B69874;
                 }
-                a {
+                &-name{
                     color: #616364;
                     font-family: Inter;
                     font-size: 16px;
@@ -52,7 +51,7 @@ header{
             transition: all 0.3s ease-in-out;
         }
     }
-    .menu-open .nav__list {
+    .menu-open .list-links {
         right: 0%;
         visibility: visible;
     }
