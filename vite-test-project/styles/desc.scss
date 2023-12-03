@@ -8,12 +8,12 @@
     justify-content: space-between;
     &__image-wrapper{
         position: relative;
-        width: 359px;
+        width: 340px;
         overflow: visible;
         .desc-part__image{
             position: absolute;
             top: -110px;
-            left: -20px; 
+            left: -28px; 
         }
     }
     &__text{

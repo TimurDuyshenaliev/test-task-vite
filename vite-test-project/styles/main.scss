@@ -80,9 +80,9 @@ section{
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
-        gap: 60px;
-        padding-right: 81px;
-        margin-top: 50px;
+        gap: 65px;
+        padding-right: 55px;
+        margin-top: 60px;
         .swiper-slide {
             background: #FFF;
             background-image: url('/images/bg_center.svg');
@@ -95,8 +95,8 @@ section{
             height: 562px;
             img {
                 display: block;
-                width: 563px;
-                height: 500px;
+                width: 550px;
+                height: 553px;
                 object-fit: cover;
             }
         }
@@ -107,8 +107,8 @@ section{
         }
 
         .mySwiperMain {
-            height: 570px;
-            width: 500px;
+            height: 562px;
+            width: 562px;
         }
 
         .mySwiperThumb {
@@ -157,7 +157,7 @@ section{
             opacity: 1; 
         }
         .swiper-button-next{
-            transform: translate(-116px, 320px);
+            transform: translate(-91px, 348px);
             img{
                 width: 34px;
                 height: 34px;
@@ -178,7 +178,7 @@ section{
             border-radius: 50px;
             background: #FFF;
             box-shadow: 0px 4px 22px 0px rgba(229, 229, 229, 0.53);
-            transform: translate(-155px, 163px);
+            transform: translate(-99px, 192px);
             &__text{
                 color: #1B3544;
                 font-family: Poppins;
