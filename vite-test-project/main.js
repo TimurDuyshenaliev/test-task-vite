@@ -1,6 +1,6 @@
 function toggleMenu() {
-    const menu = document.querySelector('.header__nav');
-    menu.classList.toggle('menu-open');
+  const menu = document.querySelector('.header__nav');
+  menu.classList.toggle('menu-open');
 }
 document.querySelector('.menu-toogle').addEventListener("click", toggleMenu)
 

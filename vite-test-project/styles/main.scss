@@ -1,13 +1,15 @@
-section{
+section {
     padding-left: 109px;
     position: relative;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    .main__text{
+
+    .main__text {
         width: 535px;
         margin-top: 125px;
-        &__quality{
+
+        &__quality {
             color: #A58054;
             font-family: Public Sans;
             font-size: 14px;
@@ -16,7 +18,8 @@ section{
             line-height: normal;
             letter-spacing: 2.24px;
         }
-        &__title{
+
+        &__title {
             color: #000;
             font-family: PT Serif;
             font-size: 48px;
@@ -24,7 +27,8 @@ section{
             font-weight: 400;
             line-height: normal;
         }
-        &__subtitle{
+
+        &__subtitle {
             margin-top: 26px;
             color: #646464;
             font-family: Poppins;
@@ -33,11 +37,13 @@ section{
             font-weight: 400;
             line-height: 24px;
         }
-        .price{
+
+        .price {
             margin-top: 49px;
             display: flex;
             flex-direction: column;
-            &__start{
+
+            &__start {
                 color: #B69874;
                 font-family: Poppins;
                 font-size: 14px;
@@ -45,7 +51,8 @@ section{
                 font-weight: 400;
                 line-height: normal;
             }
-            &__value{
+
+            &__value {
                 color: #1B3544;
                 font-family: Poppins;
                 font-size: 26px;
@@ -54,7 +61,8 @@ section{
                 line-height: normal;
             }
         }
-        button{
+
+        button {
             margin-top: 42px;
             width: 185px;
             height: 61px;
@@ -67,7 +75,8 @@ section{
             font-weight: 500;
             line-height: normal;
             transition: 0.2s all ease;
-            &:hover{
+
+            &:hover {
                 cursor: pointer;
                 background-color: transparent;
                 color: #1B3544;
@@ -75,7 +84,8 @@ section{
             }
         }
     }
-    .main__slider{
+
+    .main__slider {
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -83,6 +93,7 @@ section{
         gap: 65px;
         padding-right: 55px;
         margin-top: 60px;
+
         .swiper-slide {
             background: #FFF;
             background-image: url('/images/bg_center.svg');
@@ -93,6 +104,7 @@ section{
             align-items: center;
             width: 562px;
             height: 562px;
+
             img {
                 display: block;
                 width: 550px;
@@ -125,7 +137,8 @@ section{
             flex-direction: column;
             gap: 15px;
             background-image: none;
-            &__image-wrapper{
+
+            &__image-wrapper {
                 background-image: url('/images/bg_side.svg');
                 background-repeat: no-repeat;
                 background-position: center;
@@ -134,15 +147,16 @@ section{
                 display: flex;
                 justify-content: center;
                 align-items: center;
+
                 img {
                     width: 70px;
                     height: 70px;
                     object-fit: cover;
-                    
+
                 }
             }
-            
-            &__desc{
+
+            &__desc {
                 color: #1B3544;
                 text-align: center;
                 font-family: Poppins;
@@ -154,19 +168,24 @@ section{
         }
 
         .mySwiperThumb .swiper-slide-thumb-active {
-            opacity: 1; 
+            opacity: 1;
         }
-        .swiper-button-next{
+
+        .swiper-button-next {
             transform: translate(-91px, 348px);
-            img{
+
+            img {
                 width: 34px;
                 height: 34px;
             }
         }
-        .swiper-button-next:after, .swiper-rtl .swiper-button-prev:after {
+
+        .swiper-button-next:after,
+        .swiper-rtl .swiper-button-prev:after {
             content: none;
         }
-        .swiper-pagination-box{
+
+        .swiper-pagination-box {
             width: 366px;
             height: 79px;
             display: flex;
@@ -179,7 +198,8 @@ section{
             background: #FFF;
             box-shadow: 0px 4px 22px 0px rgba(229, 229, 229, 0.53);
             transform: translate(-99px, 192px);
-            &__text{
+
+            &__text {
                 color: #1B3544;
                 font-family: Poppins;
                 font-size: 14px;
@@ -188,7 +208,8 @@ section{
                 line-height: normal;
                 padding-left: 31px;
             }
-            .swiper-pagination{
+
+            .swiper-pagination {
                 position: relative;
                 width: 174px;
                 height: 30px;
@@ -196,33 +217,40 @@ section{
                 bottom: 0;
                 padding-right: 21px;
                 z-index: 15;
-                &-bullet{
+
+                &-bullet {
                     height: 30px;
                     width: 30px;
-                    margin:0;
+                    margin: 0;
                     opacity: 1;
-                    &-active{
+
+                    &-active {
                         box-sizing: border-box;
                         border: 2px solid #CFBEAA;
                     }
-                    &:not(:last-child){
+
+                    &:not(:last-child) {
                         margin-right: 18px;
                     }
-                    &:nth-child(1){
+
+                    &:nth-child(1) {
                         background: #26394A;
                     }
-                    &:nth-child(2){
+
+                    &:nth-child(2) {
                         background: #F5DCDC;
                     }
-                    &:nth-child(3){
+
+                    &:nth-child(3) {
                         background: #A58054;
                     }
-                    &:nth-child(4){
+
+                    &:nth-child(4) {
                         background: #F6C461;
                     }
                 }
             }
-            
+
         }
     }
 }
